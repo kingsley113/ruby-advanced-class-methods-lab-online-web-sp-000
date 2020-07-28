@@ -12,6 +12,7 @@ class Song
     #binding.pry
     #@name = song[0]
     #@artist_name = song[1]
+    song.save
   end
 
   def save
