@@ -6,8 +6,9 @@ class Song
     @@all
   end
 
-  def initialize
-    #@name = name
+  def initialize(song)
+    @name = song[0]
+    @artist_name = song[1]
   end
 
   def save
