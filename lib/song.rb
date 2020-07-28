@@ -6,8 +6,8 @@ class Song
     @@all
   end
 
-  def initialize(name)
-    @name = name
+  def initialize
+    #@name = name
   end
 
   def save
