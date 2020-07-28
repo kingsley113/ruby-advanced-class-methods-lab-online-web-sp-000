@@ -12,7 +12,6 @@ class Song
     #binding.pry
     #@name = song[0]
     #@artist_name = song[1]
-    song.save
   end
 
   def save
@@ -20,7 +19,7 @@ class Song
   end
 
   def self.create
-    Song.new(self)
+    Song.new(self).save
 
 
 
