@@ -9,6 +9,7 @@ class Song
   end
 
   def initialize(song)
+    binding.pry
     @name = song[0]
     @artist_name = song[1]
   end
@@ -19,7 +20,7 @@ class Song
 
   def self.create
     Song.new(self)
-    binding.pry
+
 
 
 
