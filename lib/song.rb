@@ -20,6 +20,7 @@ class Song
 
   def self.create
     Song.new(self).save
+    @@all
   end
 
 
