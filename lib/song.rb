@@ -6,16 +6,15 @@ class Song
     @@all
   end
 
-  def initialize(name, artist_name)
+  def initialize(name)
     @name = name
-    @artist_name = artist_name
   end
 
   def save
     self.class.all << self
   end
 
-  def self.create
+  def self.create(song)
     song = Song.new.save
     song
   end
