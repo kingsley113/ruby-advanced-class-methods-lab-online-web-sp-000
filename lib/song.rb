@@ -14,9 +14,9 @@ class Song
     Song.new(song).save
   end
 
-  def initialize(name, artist)
+  def initialize(name)
     @name = name
-    @artist = artist
+    #@artist = artist
   end
 
 
