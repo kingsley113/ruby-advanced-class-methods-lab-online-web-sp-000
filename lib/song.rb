@@ -9,9 +9,9 @@ class Song
   end
 
   def initialize(song)
-    binding.pry
-    @name = song[0]
-    @artist_name = song[1]
+    #binding.pry
+    #@name = song[0]
+    #@artist_name = song[1]
   end
 
   def save
